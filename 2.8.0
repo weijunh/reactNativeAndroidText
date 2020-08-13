@@ -1,0 +1,21 @@
+
+> bufferutil@4.0.1 install D:\workspace\vscode_workspace\androidtest\node_modules\bufferutil
+> node-gyp-build
+
+
+> canvas@2.5.0 install D:\workspace\vscode_workspace\androidtest\node_modules\canvas
+> node-pre-gyp install --fallback-to-build
+
+[canvas] Success: "D:\workspace\vscode_workspace\androidtest\node_modules\canvas\build\Release\canvas.node" is installed via remote
+
+> utf-8-validate@5.0.2 install D:\workspace\vscode_workspace\androidtest\node_modules\utf-8-validate
+> node-gyp-build
+
++ canvas@2.5.0
++ bufferutil@4.0.1
++ bufferutil@4.0.1
++ utf-8-validate@5.0.2
++ typescript@3.9.7
+added 47 packages from 27 contributors and audited 1382 packages in 39.246s
+found 0 vulnerabilities
+
