@@ -22,12 +22,12 @@ const InitNavigator = createStackNavigator({
 )
 
 const MainNavigator = createStackNavigator({
-  Login: {
-    screen: login,
-    navigationOptions: {
-      headerShown: false
-    }
-  },
+  // Login: {
+  //   screen: login,
+  //   navigationOptions: {
+  //     headerShown: false
+  //   }
+  // },
   BottomNavigator: {
     screen: BottomNavigator,
     navigationOptions: {
@@ -45,6 +45,6 @@ const AppStack = createSwitchNavigator({
   Init: InitNavigator,
   Main: MainNavigator
 })
-export default createAppContainer(MainNavigator)
+export default createAppContainer(AppStack)
 
 // export const RootNavigator = createAppContainer()
